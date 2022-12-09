@@ -1,26 +1,28 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Playball&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.titleHero {
+    font-family: 'Playball', cursive;
+    font-size: 60px;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+@media (min-width: 768px) {
+    .titleHero{
+        font-size: 90px;
+    }
 }
 
-* {
-  box-sizing: border-box;
+@media (min-width: 960px) {
+    .titleHero{
+        font-size: 120px;
+    }
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+@media (min-width: 1020px) {
+    .titleHero{
+        font-size: 140px;
+    }
 }
