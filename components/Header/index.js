@@ -60,7 +60,7 @@ const SideBar = ({ isVisiable }) => {
             <ul className={`py-5 space-y-5 items-center text-gray-800 px-2 container mx-auto text-sm `}>
                 <li>Home</li>
                 <li>About</li>
-                <li>Faq's</li>
+                <li>Faq Is</li>
                 <li>Membership</li>
                 <li>Gallery</li>
                 <li>Club Rules</li>
